@@ -1,0 +1,21 @@
+extern void channel2(int p_row, int p_col,
+                     int nx, int ny, int nz, int it, int nt, int istat,
+                     int nghost_x, int nghost_y, int nghost_z,
+                     double lx, double ly, double lz,
+                     double dt, double want_cfl, int cflmode,
+                     double nu, double prandtl,
+                     double dpdx, double want_uvolavg, int uvolavgmode,
+                     double want_cvolavg, int cvolavgmode,
+                     double setuframe, double setvframe,
+                     double betg_x, double betg_y, double betg_z);
+
+extern void channel4(int p_row, int p_col,
+                     int nx, int ny, int nz, int it, int nt, int istat,
+                     int nghost_x, int nghost_y, int nghost_z,
+                     double lx, double ly, double lz,
+                     double dt, double want_cfl, int cflmode,
+                     double nu, double prandtl,
+                     double dpdx, double want_uvolavg, int uvolavgmode,
+                     double want_cvolavg, int cvolavgmode,
+                     double setuframe, double setvframe,
+                     double betg_x, double betg_y, double betg_z);
